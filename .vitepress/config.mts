@@ -14,6 +14,14 @@ export default defineConfig({
 
  // 左侧目录树
     sidebar: [
+       {
+        text: '前言',
+        items: [
+          { text: '一些个人碎碎念', link: '/prelogue/self_thoughts' },
+          { text: '怎么适应大学生活', link: '/prelogue/adaption' },
+          { text: '指南的初衷', link: '/prelogue/aim' }
+        ]
+      },
       {
         text: '第一章：学好一门课程',
         items: [
@@ -27,8 +35,7 @@ export default defineConfig({
           { text: '微观经济学', link: '/academic/Microeconomics' },
           { text: '会计学', link: '/academic/Accounting' },
           { text: '数据结构与算法导论', link: '/academic/dsa' },
-          { text: '商业与技术伦理学', link: '/academic/' },
-          { text: '军事理论', link: '/academic/Microeco' }
+          { text: '商业与技术伦理学', link: '/academic/ethics' },
         ]
       },
       {
