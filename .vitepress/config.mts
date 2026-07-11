@@ -12,18 +12,31 @@ export default defineConfig({
       { text: '核心指南', link: '/academic/selection' }
     ],
 
-    // 这里就是你的左侧目录树
+ // 左侧目录树
     sidebar: [
       {
-        text: '第一章：学术与选课避雷',
+        text: '第一章：学好一门课程',
         items: [
-          { text: '抢课玄学与递签手册', link: '/academic/selection' }
+          { text: '选课概览', link: '/academic/selection' },
+          { text: '数学分析A I', link: '/academic/Math Analysis A I' }
+          { text: '数学分析A II', link: '/academic/Math Analysis A II' }
+          { text: '线性代数 I', link: '/academic/Linear Algebra I' }
+          { text: '线性代数 II', link: '/academic/Linear Algebra II' }
+          { text: '管理学导论', link: '/academic/Management Intro' }
+          { text: 'Python', link: '/academic/Python' }
+          { text: '微观经济学', link: '/academic/Microeconomics' }
+          { text: '会计学', link: '/academic/Accounting' }
+          { text: '数据结构与算法导论', link: '/academic/dsa' }
+          { text: '商业与技术伦理学', link: '/academic/' }
+          { text: '军事理论', link: '/academic/Microeco' }
         ]
       },
       {
-        text: '第二章：商赛与职业早期规划',
+        text: '第二章：打比赛？打什么？怎么打？',
         items: [
-          { text: '大一实习与 PTA 线', link: '/career/internship' }
+          { text: '商赛', link: '/competition/business' }
+          { text: '创赛', link: '/competition/start-up' }
+          { text: '其他', link: '/competition/others' }
         ]
       }
     ],
