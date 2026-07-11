@@ -18,24 +18,24 @@ export default defineConfig({
         text: '第一章：学好一门课程',
         items: [
           { text: '选课概览', link: '/academic/selection' },
-          { text: '数学分析A I', link: '/academic/Math Analysis A I' }
-          { text: '数学分析A II', link: '/academic/Math Analysis A II' }
-          { text: '线性代数 I', link: '/academic/Linear Algebra I' }
-          { text: '线性代数 II', link: '/academic/Linear Algebra II' }
-          { text: '管理学导论', link: '/academic/Management Intro' }
-          { text: 'Python', link: '/academic/Python' }
-          { text: '微观经济学', link: '/academic/Microeconomics' }
-          { text: '会计学', link: '/academic/Accounting' }
-          { text: '数据结构与算法导论', link: '/academic/dsa' }
-          { text: '商业与技术伦理学', link: '/academic/' }
+          { text: '数学分析A I', link: '/academic/Math Analysis A I' },
+          { text: '数学分析A II', link: '/academic/Math Analysis A II' },
+          { text: '线性代数 I', link: '/academic/Linear Algebra I' },
+          { text: '线性代数 II', link: '/academic/Linear Algebra II' },
+          { text: '管理学导论', link: '/academic/Management Intro' },
+          { text: 'Python', link: '/academic/Python' },
+          { text: '微观经济学', link: '/academic/Microeconomics' },
+          { text: '会计学', link: '/academic/Accounting' },
+          { text: '数据结构与算法导论', link: '/academic/dsa' },
+          { text: '商业与技术伦理学', link: '/academic/' },
           { text: '军事理论', link: '/academic/Microeco' }
         ]
       },
       {
         text: '第二章：打比赛？打什么？怎么打？',
         items: [
-          { text: '商赛', link: '/competition/business' }
-          { text: '创赛', link: '/competition/start-up' }
+          { text: '商赛', link: '/competition/business' },
+          { text: '创赛', link: '/competition/start-up' },
           { text: '其他', link: '/competition/others' }
         ]
       }
