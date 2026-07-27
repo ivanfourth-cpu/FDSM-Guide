@@ -19,7 +19,7 @@ export default defineConfig({
         collapsed: false, // 👈 开启折叠功能（默认展开）
         items: [
           { text: '一些个人碎碎念', link: '/prelogue/self_thoughts' },
-          { text: '怎么适应大学生活', link: '/prelogue/adaptation' },
+          { text: '怎么适应大学生活', link: '/prelogue/adaption' },
           { text: '指南的初衷', link: '/prelogue/aim' }
         ]
       },
@@ -64,7 +64,7 @@ export default defineConfig({
         collapsed: true, // 👈 默认折叠
         items: [
           { text: '商赛', link: '/competition/business' },
-          { text: '创赛', link: '/competition/start up' },
+          { text: '创赛', link: '/competition/start-up' },
           { text: '其他', link: '/competition/others' }
         ]
       }
