@@ -53,7 +53,7 @@ export default defineConfig({
             collapsed: true, // 👈 子分组默认折叠
             items: [
               { text: '军事理论', link: '/academic/military' },
-              { text: '学术英语视听说', link: '/academic/Engsts' }
+              { text: '学术英语视听说', link: '/academic/Engsts' },
               { text: '文化阅读', link: '/academic/Cultural Reading' }
             ]
           }
