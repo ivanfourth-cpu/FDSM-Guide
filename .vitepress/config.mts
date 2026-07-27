@@ -18,9 +18,9 @@ export default defineConfig({
         text: '前言',
         collapsed: false, // 👈 开启折叠功能（默认展开）
         items: [
-          { text: '一些个人碎碎念', link: '/academic/thoughts' },
+          { text: '一些个人碎碎念', link: '/academic/self_thoughts' },
           { text: '怎么适应大学生活', link: '/academic/adaptation' },
-          { text: '指南的初衷', link: '/academic/intention' }
+          { text: '指南的初衷', link: '/academic/aim' }
         ]
       },
       {
@@ -34,14 +34,14 @@ export default defineConfig({
             text: '专业课程',
             collapsed: true, // 👈 子分组默认折叠，点开才能看到里面的课程
             items: [
-              { text: '数学分析 A I', link: '/academic/math-analysis-1' },
-              { text: '数学分析 A II', link: '/academic/math-analysis-2' },
-              { text: '线性代数 I', link: '/academic/linear-algebra-1' },
-              { text: '线性代数 II', link: '/academic/linear-algebra-2' },
-              { text: '管理学导论', link: '/academic/management' },
-              { text: 'Python', link: '/academic/python' },
-              { text: '微观经济学', link: '/academic/microeconomics' },
-              { text: '会计学', link: '/academic/accounting' },
+              { text: '数学分析 A I', link: '/academic/Math Analysis A I' },
+              { text: '数学分析 A II', link: '/academic/Math Analysis A II' },
+              { text: '线性代数 I', link: '/academic/Linear Algebra I' },
+              { text: '线性代数 II', link: '/academic/Linear Algebra II' },
+              { text: '管理学导论', link: '/academic/Management Intro' },
+              { text: 'Python', link: '/academic/Python' },
+              { text: '微观经济学', link: '/academic/Microeconomics' },
+              { text: '会计学', link: '/academic/Accounting' },
               { text: '数据结构与算法导论', link: '/academic/dsa' },
               { text: '商业与技术伦理学', link: '/academic/ethics' }
             ]
@@ -63,8 +63,8 @@ export default defineConfig({
         text: '第二章：打比赛？打什么？怎么打？',
         collapsed: true, // 👈 默认折叠
         items: [
-          { text: '商赛', link: '/career/business-competition' },
-          { text: '创赛', link: '/career/innovation-competition' },
+          { text: '商赛', link: '/career/business' },
+          { text: '创赛', link: '/career/start up' },
           { text: '其他', link: '/career/others' }
         ]
       }
