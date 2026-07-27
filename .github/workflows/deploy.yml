@@ -9,8 +9,6 @@ permissions:
   pages: write
   id-token: write
 
-# 核心改进：开启 cancel-in-progress: true
-# 只要有新 commit 提交，立刻终止上一次还没跑完的部署，避免互锁
 concurrency:
   group: "pages"
   cancel-in-progress: true
@@ -27,13 +25,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: npm ci || npm install
+        run: npm install
       - name: Build with VitePress
-        run: npm run docs:build || npx vitepress build
+        run: npx vitepress build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
