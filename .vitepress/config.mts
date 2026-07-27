@@ -13,37 +13,59 @@ export default defineConfig({
     ],
 
  // 左侧目录树
-    sidebar: [
-       {
+   sidebar: [
+      {
         text: '前言',
+        collapsed: false, // 👈 开启折叠功能（默认展开）
         items: [
-          { text: '一些个人碎碎念', link: '/prelogue/self_thoughts' },
-          { text: '怎么适应大学生活', link: '/prelogue/adaption' },
-          { text: '指南的初衷', link: '/prelogue/aim' }
+          { text: '一些个人碎碎念', link: '/academic/thoughts' },
+          { text: '怎么适应大学生活', link: '/academic/adaptation' },
+          { text: '指南的初衷', link: '/academic/intention' }
         ]
       },
       {
         text: '第一章：学好一门课程',
+        collapsed: false, // 👈 主章节可折叠
         items: [
           { text: '选课概览', link: '/academic/selection' },
-          { text: '数学分析A I', link: '/academic/Math Analysis A I' },
-          { text: '数学分析A II', link: '/academic/Math Analysis A II' },
-          { text: '线性代数 I', link: '/academic/Linear Algebra I' },
-          { text: '线性代数 II', link: '/academic/Linear Algebra II' },
-          { text: '管理学导论', link: '/academic/Management Intro' },
-          { text: 'Python', link: '/academic/Python' },
-          { text: '微观经济学', link: '/academic/Microeconomics' },
-          { text: '会计学', link: '/academic/Accounting' },
-          { text: '数据结构与算法导论', link: '/academic/dsa' },
-          { text: '商业与技术伦理学', link: '/academic/ethics' },
+          
+          // 🔽 增加的中间层级：数学与基础课
+          {
+            text: '专业课程',
+            collapsed: true, // 👈 子分组默认折叠，点开才能看到里面的课程
+            items: [
+              { text: '数学分析 A I', link: '/academic/math-analysis-1' },
+              { text: '数学分析 A II', link: '/academic/math-analysis-2' },
+              { text: '线性代数 I', link: '/academic/linear-algebra-1' },
+              { text: '线性代数 II', link: '/academic/linear-algebra-2' },
+              { text: '管理学导论', link: '/academic/management' },
+              { text: 'Python', link: '/academic/python' },
+              { text: '微观经济学', link: '/academic/microeconomics' },
+              { text: '会计学', link: '/academic/accounting' },
+              { text: '数据结构与算法导论', link: '/academic/dsa' },
+              { text: '商业与技术伦理学', link: '/academic/ethics' }
+            ]
+          },
+          
+          // 🔽 增加的中间层级：专业与进阶课
+          {
+            text: '其他课程',
+            collapsed: true, // 👈 子分组默认折叠
+            items: [
+              { text: '军事理论', link: '/academic/military' },
+              { text: '学术英语视听说', link: '/academic/Engsts' }
+              { text: '文化阅读', link: '/academic/Cultural Reading' }
+            ]
+          }
         ]
       },
       {
         text: '第二章：打比赛？打什么？怎么打？',
+        collapsed: true, // 👈 默认折叠
         items: [
-          { text: '商赛', link: '/competition/business' },
-          { text: '创赛', link: '/competition/start-up' },
-          { text: '其他', link: '/competition/others' }
+          { text: '商赛', link: '/career/business-competition' },
+          { text: '创赛', link: '/career/innovation-competition' },
+          { text: '其他', link: '/career/others' }
         ]
       }
     ],
