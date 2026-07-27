@@ -64,8 +64,8 @@ export default defineConfig({
         collapsed: true, // 👈 默认折叠
         items: [
           { text: '商赛', link: '/career/business' },
-          { text: '创赛', link: '/career/start up' },
-          { text: '其他', link: '/career/others' }
+          { text: '其他', link: '/career/others' },
+          { text: '创赛', link: '/career/start up' }
         ]
       }
     ],
