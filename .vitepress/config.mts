@@ -18,9 +18,9 @@ export default defineConfig({
         text: '前言',
         collapsed: false, // 👈 开启折叠功能（默认展开）
         items: [
-          { text: '一些个人碎碎念', link: '/academic/self_thoughts' },
-          { text: '怎么适应大学生活', link: '/academic/adaptation' },
-          { text: '指南的初衷', link: '/academic/aim' }
+          { text: '一些个人碎碎念', link: '/prelogue/self_thoughts' },
+          { text: '怎么适应大学生活', link: '/prelogue/adaptation' },
+          { text: '指南的初衷', link: '/prelogue/aim' }
         ]
       },
       {
@@ -63,9 +63,9 @@ export default defineConfig({
         text: '第二章：打比赛？打什么？怎么打？',
         collapsed: true, // 👈 默认折叠
         items: [
-          { text: '商赛', link: '/career/business' },
-          { text: '其他', link: '/career/others' },
-          { text: '创赛', link: '/career/start up' }
+          { text: '商赛', link: '/competition/business' },
+          { text: '创赛', link: '/competition/start up' },
+          { text: '其他', link: '/competition/others' }
         ]
       }
     ],
