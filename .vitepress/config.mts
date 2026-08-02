@@ -23,8 +23,10 @@ export default defineConfig({
           { text: '指南的初衷', link: '/prelogue/aim' }
         ]
       },
+
+// 第一章-------
       {
-        text: '第一章：学好一门课程',
+        text: '第一章：课程',
         collapsed: false, // 👈 主章节可折叠
         items: [
           { text: '选课概览', link: '/academic/selection' },
@@ -46,26 +48,47 @@ export default defineConfig({
               { text: '商业与技术伦理学', link: '/academic/ethics' }
             ]
           },
-          
-          // 🔽 增加的中间层级：专业与进阶课
           {
             text: '其他课程',
             collapsed: true, // 👈 子分组默认折叠
             items: [
               { text: '军事理论', link: '/academic/military' },
               { text: '学术英语视听说', link: '/academic/Engsts' },
-              { text: '文化阅读', link: '/academic/Cultural Reading' }
+              { text: '文化阅读', link: '/academic/Cultural Reading' },
+              { text: '中国民族契约概览', link: '/academic/Chinese Instrument' },
             ]
           }
         ]
       },
+
+// 第二章-------
       {
-        text: '第二章：打比赛？打什么？怎么打？',
-        collapsed: true, // 👈 默认折叠
+        text: '第二章：比赛',
+        collapsed: false,
         items: [
           { text: '商赛', link: '/competition/business' },
           { text: '创赛', link: '/competition/start-up' },
           { text: '其他', link: '/competition/others' }
+        ]
+      },
+
+// 第三章-------
+      {
+        text: '第三章：实习',
+        collapsed: false,
+        items: [
+          { text: '或许你需要一些尝试', link: '/career/aim' },
+          { text: '实践项目', link: '/career/program' },
+          { text: '实习', link: '/career/internship' },
+        ]
+      },
+
+// 尾章-------
+      {
+        text: '尾章：致谢',
+        collapsed: false,
+        items: [
+          { text: '致谢', link: '/contribution/Acknowledgement' }
         ]
       }
     ],
