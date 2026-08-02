@@ -55,7 +55,7 @@ export default defineConfig({
               { text: '军事理论', link: '/academic/military' },
               { text: '学术英语视听说', link: '/academic/Engsts' },
               { text: '文化阅读', link: '/academic/Cultural Reading' },
-              { text: '中国民族契约概览', link: '/academic/Chinese Instrument' },
+              { text: '中国民族器乐概览', link: '/academic/Chinese Instrument' },
             ]
           }
         ]
