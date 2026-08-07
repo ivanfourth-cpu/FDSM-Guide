@@ -19,8 +19,17 @@ export default defineConfig({
         collapsed: false, // 👈 开启折叠功能（默认展开）
         items: [
           { text: '一些个人碎碎念', link: '/prelogue/self_thoughts' },
-          { text: '怎么适应大学生活', link: '/prelogue/adaption' },
           { text: '指南的初衷', link: '/prelogue/aim' }
+        ]
+      },
+
+// 第零章-------
+   {
+        text: '第零章：Maybe Tips',
+        collapsed: false,
+        items: [
+          { text: '如何适应大学生活', link: '/tips/adaption' },
+          { text: '别样的生活方式', link: '/tips/lifestyle' }
         ]
       },
 
