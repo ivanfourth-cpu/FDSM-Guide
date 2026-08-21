@@ -14,11 +14,20 @@ Markdown的优点：
 
 Markdown的学习网站： [Markdown](https://markdown.com.cn)。
 
+### Ai工具
+#### Gemini
+Gemini官网：[Gemini](https://gemini.google.com/app)
+#### ChatGPT
+ChatGPT官网：[ChatGPT](https://chatgpt.com/)
+
+
 ### Ai Coding / Vibe Coding
 #### 腾讯Workbuddy
-Workbuddy官网：[Workbuddy](https://www.codebuddy.cn/)
+Workbuddy官网：[Workbuddy](https://www.codebuddy.cn/)  
 #### 字节TRAE
 TRAE官网：[TRAE](www.trae.com.cn)
+#### Google AI Studio
+Google AI Studio官网：[Google AI Studio](https://aistudio.google.com)
 
 ### API开放平台
 #### Deepseek开放平台
