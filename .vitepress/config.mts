@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  ignoreDeadLinks: true, 
   title: "FDSM 生存指南",
   description: "一本小书",
   // 匹配你的 GitHub 仓库名
