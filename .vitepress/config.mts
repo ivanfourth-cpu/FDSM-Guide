@@ -29,7 +29,9 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '如何适应大学生活', link: '/tips/adaption' },
-          { text: '别样的生活方式', link: '/tips/lifestyle' }
+          { text: '别样的生活方式', link: '/tips/lifestyle' },
+          { text: '信息', link: '/tips/info' },
+          { text: '技能', link: '/tips/skill' }
         ]
       },
 
