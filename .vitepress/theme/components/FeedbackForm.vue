@@ -18,7 +18,8 @@
           <input 
             type="text" 
             name="读者联系方式" 
-            placeholder="你的微信 / 邮箱（方便回复你，选填）" 
+            required
+            placeholder="你的微信 / 邮箱" 
             class="input-field" 
           />
         </div>
