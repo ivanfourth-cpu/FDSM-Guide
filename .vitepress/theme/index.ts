@@ -1,6 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
 import Giscus from '@giscus/vue'
+import FeedbackForm from './components/FeedbackForm.vue'
 import { useData, useRoute } from 'vitepress'
 
 export default {
@@ -10,7 +11,10 @@ export default {
     const route = useRoute()
 
     return h(DefaultTheme.Layout, null, {
-      'doc-after': () =>
+      'doc-after': () => [
+        // 1. 先展示私聊反馈/提问表单
+        h(FeedbackForm),
+        // 2. 紧接着展示公开的 Giscus 讨论区
         h(Giscus, {
           id: 'comments',
           repo: 'ivanfourth-cpu/FDSM-Guide',
@@ -26,6 +30,7 @@ export default {
           lang: 'zh-CN',
           key: route.path
         })
+      ]
     })
   }
 }
